@@ -3,17 +3,18 @@
 
     function Routes() {
         return (
-        <Router>
-            <Header />
-            <Redirect to="/" />
+          <Router>
+           <Header />
+           <Redirect to="/" />
             <Switch>
-            <Route exact path="/" component={Inicio} />
-            <Route exact path="/formularioRegistro" component={FormularioRegistro} />
-            <Route exact path="/usuarios" component={Usuarios} />
+                <Route exact path="/" component={Inicio} />
+                <Route exact path="/formularioRegistro" component={FormularioRegistro} />
+                <Route exact path="/usuarios" component={Usuarios} />
             </Switch>
-        </Router>
+          </Router>
         );
-    }
-    
-    
+      }
+      
+      
       //</script>
+    
